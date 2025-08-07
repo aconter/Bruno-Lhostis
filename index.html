@@ -4,14 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Offre de Service Informatique</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-
-<header>
-    <img src="logo2.png" alt="Logo" class="logo">
-</header>
 
 <section id="accueil">
     <div class="slogan animate__animated animate__fadeInDown">
@@ -27,56 +23,101 @@
     </div>
 </section>
 
-<section id="tarifs">
+<section id="tarifs" class="section-double">
     <h2 class="titre-section">Mes Tarifs</h2>
-
-    <div class="presentation-container prestation-card bulle-tarif">
-        <div class="presentation-texte">
-            <h3>💼 Tarification horaire</h3>
-            <p>Pour tout type de prestation, le tarif sera de <strong>30 € de l'heure</strong>,<br> avec une justification à l'appuie .<br>
-            Les pièces et les licences ne sont pas comprises dans le tarif. </p>
+    <div class="double-colonnes">
+        <div class="colonne">
+            <div class="presentation-container prestation-card bulle-tarif">
+                <div class="presentation-texte">
+                    <h3>💼 Tarification horaire</h3>
+                    <p>Pour tout type de prestation, le tarif sera de <strong>30 € de l'heure</strong>, avec une justification à l’appui.<br>
+                    Les pièces et les licences ne sont pas comprises dans le tarif.</p>
+                </div>
+            </div>
+            <div class="presentation-container prestation-card">
+                <div class="presentation-texte">
+                    <h3>🚗 Frais de déplacement</h3>
+                    <ul>
+                        <li>Gratuit à mon domicile</li>
+                        <li>Distanciel si possible</li>
+                        <li>Au-delà de 10 min, facturation de <strong>0,35€/min</strong></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="presentation-container prestation-card">
-        <div class="presentation-texte">
-            <h3>🚗 Frais de déplacement</h3>
-            <ul>
-                <li>Les déplacements sont gratuits si la prestation a lieu à mon domicile.</li>
-                <li>Si votre problématique le permet, le distanciel peut être une solution.</li>
-                <li>Pour les interventions à votre domicile,<br> Les 10 premières minutes de trajets sont offertes,<br>
-                    Au dela, chaque minutes supplémentaires sera facturées <strong>0,35€</strong>.</li>
-            </ul>
+        <div class="colonne">
+            <div class="presentation-container prestation-card bulle-tarif">
+                <div class="presentation-texte">
+                    <h3>💼 Tarification horaire</h3>
+                    <p>Pour tout type de prestation, le tarif sera de <strong>30 € de l'heure</strong>, avec une justification à l’appui.<br>
+                    Les pièces et les licences ne sont pas comprises dans le tarif.</p>
+                </div>
+            </div>
+            <div class="presentation-container prestation-card">
+                <div class="presentation-texte">
+                    <h3>🚗 Frais de déplacement</h3>
+                    <ul>
+                        <li>Gratuit à mon domicile</li>
+                        <li>Distanciel si possible</li>
+                        <li>Au-delà de 10 min, facturation de <strong>0,35€/min</strong></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-
-
-<section id="presentation">
+<section id="presentation" class="section-double">
     <h2 class="titre-section">Qui suis-je ?</h2>
-    <div class="presentation-container prestation-card">
-        <img src="moi.jpg" alt="Ma photo" class="photo-profil">
-        <div class="presentation-texte">
-            <p>Je suis étudiant en école d'ingénieur dans le domaine de l'informatique à l'ISEN Brest. Je suis également en apprentissage dans le service informatique d'Ifremer.</p>
-            <p>Mon objectif : rendre l’informatique compréhensible, humaine et honnête.</p>
-            <p>À l’écoute et pédagogue, je mets mes compétences au service de solutions concrètes et adaptées à chacun.</p>
+    <div class="double-colonnes">
+        <div class="colonne">
+            <div class="presentation-container prestation-card">
+                <img src="moi.jpg" alt="Ma photo" class="photo-profil">
+                <div class="presentation-texte">
+                    <p>Je suis étudiant à l'ISEN Brest et alternant à l'Ifremer.</p>
+                    <p>Objectif : rendre l’informatique compréhensible, humaine et honnête.</p>
+                    <p>À l’écoute et pédagogue, je propose des solutions concrètes adaptées à chacun.</p>
+                </div>
+            </div>
+        </div>
+        <div class="colonne">
+            <div class="presentation-container prestation-card">
+                <img src="moi.jpg" alt="Ma photo" class="photo-profil">
+                <div class="presentation-texte">
+                    <p>Je suis étudiant à l'ISEN Brest et alternant à l'Ifremer.</p>
+                    <p>Objectif : rendre l’informatique compréhensible, humaine et honnête.</p>
+                    <p>À l’écoute et pédagogue, je propose des solutions concrètes adaptées à chacun.</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<section id="contact">
+<section id="contact" class="section-double">
     <h2 class="titre-section">Me Contacter</h2>
-    <div class="presentation-container prestation-card">
-        <div class="presentation-texte">
-            <p><img src="phone.png" alt="Téléphone" class="icon"> <strong>Téléphone :</strong> 06 41 53 73 34</p>
-            <p><img src="whatapp.png" alt="WhatsApp" class="icon"> <strong>WhatsApp :</strong> +33 6 41 53 73 34</p>
-            <p><img src="mail.png" alt="Email" class="icon"> <strong>Email :</strong> antoine.conter@outlook.com</p>
-            <p><img src="watch.png" alt="Disponibilité" class="icon"> <strong>Disponibilité :</strong> Du Lundi au Dimanche sur Rendez-vous.</p>
+    <div class="double-colonnes">
+        <div class="colonne">
+            <div class="presentation-container prestation-card">
+                <div class="presentation-texte">
+                    <p><img src="phone.png" class="icon"> <strong>Téléphone :</strong> 06 41 53 73 34</p>
+                    <p><img src="whatapp.png" class="icon"> <strong>WhatsApp :</strong> +33 6 41 53 73 34</p>
+                    <p><img src="mail.png" class="icon"> <strong>Email :</strong> antoine.conter@outlook.com</p>
+                    <p><img src="watch.png" class="icon"> <strong>Disponibilité :</strong> Du Lundi au Dimanche sur Rendez-vous.</p>
+                </div>
+            </div>
+        </div>
+        <div class="colonne">
+            <div class="presentation-container prestation-card">
+                <div class="presentation-texte">
+                    <p><img src="phone.png" class="icon"> <strong>Téléphone :</strong> 06 41 53 73 34</p>
+                    <p><img src="whatapp.png" class="icon"> <strong>WhatsApp :</strong> +33 6 41 53 73 34</p>
+                    <p><img src="mail.png" class="icon"> <strong>Email :</strong> antoine.conter@outlook.com</p>
+                    <p><img src="watch.png" class="icon"> <strong>Disponibilité :</strong> Du Lundi au Dimanche sur Rendez-vous.</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-
 
 <footer>
     <p>&copy; 2025 - Tous droits réservés | Offre de Service Informatique</p>
