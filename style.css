@@ -1,9 +1,9 @@
 :root {
-    --bleu-clair: #d0f0ff;
-    --bleu-moyen: #00aaff;
-    --bleu-fonce: #0077cc;
-    --accent: #ff6600;
-    --jaune: #ffcc00;
+    --bleu-clair: #ffffff; /* fond blanc */
+    --bleu-moyen: #0e668f; /* bleu moyen style drapeau français */
+    --bleu-fonce: #1d5484; /* bleu foncé */
+    --accent: #ff0000; /* rouge vif */
+    --jaune: #ff0000; /* remplacé par rouge pour cohérence */
     --texte: #111;
 }
 
@@ -12,7 +12,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-    background: url('fond.jpg') no-repeat center center fixed;
+    background: url('fond.jpg') no-repeat center center fixed; /* garde l'image */
     background-size: cover;
     color: var(--texte);
     scroll-behavior: smooth;
@@ -27,13 +27,13 @@ section:not(#accueil)::before {
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background: rgba(208,240,255,0.9);
+    background: rgba(255,255,255,0.95); /* blanc semi-transparent */
     backdrop-filter: blur(2px);
     z-index: -1;
 }
 
 header {
-    background-color: var(--bleu-clair);
+    background-color: var(--bleu-clair); /* blanc */
     height: 100px;
     padding: 0 30px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -94,7 +94,7 @@ h2::after {
     display: block;
     width: 80px;
     height: 3px;
-    background-color: var(--jaune);
+    background-color: var(--accent);
     margin: 10px auto 0;
     border-radius: 3px;
     opacity: 0.9;
@@ -116,7 +116,7 @@ h2::after {
     top: 0;
     width: 3px;
     height: 100%;
-    background-color: var(--jaune);
+    background-color: var(--accent);
     transform: translateX(-50%);
     z-index: 0;
 }
@@ -150,11 +150,11 @@ h2::after {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    background: var(--bleu-clair);
+    background: var(--bleu-clair); /* blanc */
     border-radius: 10px;
     padding: 30px;
-    border: 2px solid var(--jaune);
-    box-shadow: 0 4px 15px rgba(0, 170, 255, 0.3);
+    border: 2px solid var(--accent);
+    box-shadow: 0 4px 15px rgba(0, 85, 164, 0.3);
 }
 .photo-profil {
     width: 180px;
@@ -175,7 +175,7 @@ h2::after {
     margin-bottom: 15px;
 }
 .presentation-texte strong {
-    color: var(--jaune);
+    color: var(--accent);
 }
 .presentation-texte ul {
     list-style-position: inside;
@@ -221,8 +221,8 @@ footer {
 }
 
 .button {
-    background-color: var(--jaune);
-    color: #000;
+    background-color: var(--accent);
+    color: #fff;
     padding: 12px 24px;
     border: none;
     border-radius: 6px;
@@ -231,5 +231,5 @@ footer {
     transition: background 0.3s;
 }
 .button:hover {
-    background-color: #e6b800;
+    background-color: #cc0000;
 }
