@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offre de Service Informatique</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="icon" type="image/png" sizes="32x32" href="Bruno-LHOSTIS-logo.webp">
+<link rel="icon" type="image/png" sizes="192x192" href="Bruno-LHOSTIS-logo.webp">
+<link rel="apple-touch-icon" href="Bruno-LHOSTIS-logo.webp">
+<meta name="msapplication-TileImage" content="Bruno-LHOSTIS-logo.webp">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bruno L’Hostis - Offre de Service</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
-<!-- 1. Accueil -->
+<!-- Header avec logo -->
+<header>
+    <a href="#accueil">
+        <img src="Bruno-LHOSTIS-logo.webp" alt="Logo Bruno L’Hostis" class="logo">
+    </a>
+</header>
+
+<!-- Accueil -->
 <section id="accueil">
     <div class="slogan animate__animated animate__fadeInDown">
         <h1>Faciliter l'accès à la connaissance, à la formation</h1>
@@ -17,130 +28,84 @@
     </div>
 </section>
 
-<!-- 2. Services -->
+<!-- Carte mentale -->
 <section id="services">
-    <h2 class="titre-section">Aperçu de nos services</h2>
+    <h2 class="titre-section">Aperçu de mes services</h2>
     <div class="services-banner">
-        <img src="perso3.jpg" alt="Nos services" />
+        <img src="Bruno_Lhostis_map.webp" alt="Carte mentale" />
     </div>
 </section>
 
-<!-- 3. Présentation -->
+<!-- Présentation Bruno L’Hostis -->
 <section id="presentation" class="section-double">
     <h2 class="titre-section">Qui suis-je ?</h2>
-    <div class="double-colonnes">
-        <!-- Colonne Bruno L’Hostis -->
-        <div class="colonne">
-            <div class="presentation-container prestation-card">
-                <img src="moi.jpg" alt="Ma photo" class="photo-profil">
-                <div class="presentation-texte">
-                    <h3>Bruno L’HOSTIS</h3>
-                    <p><strong>Professeur et formateur indépendant</strong></p>
-                    <ul>
-                        <li>Soutien scolaire en <strong>maths et physique-chimie</strong> pour collégiens, lycéens et adultes (50 % crédit d’impôt).</li>
-                        <li>12 ans d’expérience en accompagnement individuel et réussite scolaire.</li>
-                    </ul>
-                    <p><strong>Formateur</strong></p>
-                    <ul>
-                        <li>Expérience en formations internes dans le secteur automobile, en France et à l’international (Indonésie, Tchéquie).</li>
-                        <li>Conception, animation et gestion de <strong>séquences pédagogiques complètes</strong>, de la préparation à l’évaluation.</li>
-                        <li>Formations <strong>culturelles et professionnelles</strong> destinées au grand public, aux associations et aux entreprises.</li>
-                    </ul>
-                    <p><em>Passionné par la transmission du savoir, j’accompagne aussi bien les particuliers que les organisations dans leurs projets d’apprentissage et de développement de compétences.</em></p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Colonne Étudiant ISEN -->
-        <div class="colonne">
-            <div class="presentation-container prestation-card">
-                <img src="moi.jpg" alt="Ma photo" class="photo-profil">
-                <div class="presentation-texte">
-                    <h3>Antoine CONTER</h3>
-                    <p>Étudiant à l'ISEN Brest et alternant à l'Ifremer.</p>
-                    <p>Objectif : rendre l’informatique compréhensible, humaine et honnête.</p>
-                    <p>À l’écoute et pédagogue, je propose des solutions concrètes adaptées à chacun.</p>
-                    <p>Je propose des cours individuels ou en petits groupes en maths et physique-chimie dans un rayon de 30 km autour de Lannilis et Plouguerneau, avec un crédit d’impôt de 50 %</p>
-                </div>
-            </div>
+    <div class="presentation-container prestation-card">
+        <img src="moi.jpg" alt="Ma photo" class="photo-profil">
+        <div class="presentation-texte">
+            <h3>Bruno L’HOSTIS</h3>
+            <p><strong>Professeur et formateur indépendant</strong></p>
+            <ul>
+                <li>Soutien scolaire en <strong>maths et physique-chimie</strong> pour collégiens, lycéens et adultes (50 % crédit d’impôt).</li>
+                <li>12 ans d’expérience en accompagnement individuel et réussite scolaire.</li>
+            </ul>
+            <p><strong>Formateur</strong></p>
+            <ul>
+                <li>Expérience en formations internes dans le secteur automobile, en France et à l’international (Indonésie, Tchéquie).</li>
+                <li>Conception, animation et gestion de <strong>séquences pédagogiques complètes</strong>, de la préparation à l’évaluation.</li>
+                <li>Formations <strong>culturelles et professionnelles</strong> destinées au grand public, aux associations et aux entreprises.</li>
+            </ul>
+            <p><em>Passionné par la transmission du savoir, j’accompagne aussi bien les particuliers que les organisations dans leurs projets d’apprentissage et de développement de compétences.</em></p>
         </div>
     </div>
 </section>
 
-<!-- 4. Tarifs -->
-<section id="tarifs" class="section-double">
-    <h2 class="titre-section">Nos Tarifs</h2>
-    <div class="double-colonnes">
-        <!-- Tarifs Bruno L’Hostis -->
-        <div class="colonne">
-            <div class="presentation-container prestation-card bulle-tarif">
-                <div class="presentation-texte">
-                    <h3> Tarifs Bruno L’HOSTIS</h3>
-                    <ul>
-                        <li><strong>Soutien scolaire :</strong> 27 €/h — individuel ou petits groupes (maths & physique-chimie) avec <strong>50 % de crédit d’impôt</strong>.</li>
-                        <li><strong>Formateur indépendant :</strong> 30 €/h — tout domaine, pour le grand public, associations et entreprises (conception, animation, gestion et évaluation de séquences pédagogiques).</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Tarifs Antoine (inchangé) -->
-        <div class="colonne">
-            <div class="presentation-container prestation-card bulle-tarif">
-                <div class="presentation-texte">
-                    <h3> Formule Abonnement Mensuel</h3>
-                    <ul>
-                        <li><strong>Tarif :</strong> 20 à 25 € / mois (à préciser)</li>
-                        <li><strong>Accès illimité</strong> à tous les cours collectifs :</li>
-                        <ul>
-                            <li> Histoire : séances dynamiques et interactives</li>
-                            <li> Anglais : activités ludiques et culturelles</li>
-                        </ul>
-                        <li><strong>Fréquence :</strong> 1 à 2 heures de cours par semaine</li>
-                    </ul>
-                    <p> Avec un seul abonnement, les adhérents peuvent venir librement aux cours qui les intéressent, quand ils le souhaitent.</p>
-                </div>
-            </div>
+<!-- Tarifs Bruno L’Hostis -->
+<section id="tarifs">
+    <h2 class="titre-section">Tarifs</h2>
+    <div class="presentation-container prestation-card bulle-tarif">
+        <div class="presentation-texte">
+            <h3>Tarifs Bruno L’HOSTIS</h3>
+            <ul>
+                <li><strong>Soutien scolaire :</strong> 27 €/h — individuel ou petits groupes (maths & physique-chimie) avec <strong>50 % de crédit d’impôt</strong>.</li>
+                <li><strong>Formateur indépendant :</strong> 30 €/h — tout domaine, pour le grand public, associations et entreprises (conception, animation, gestion et évaluation de séquences pédagogiques).</li>
+            </ul>
         </div>
     </div>
 </section>
 
-<!-- 5. Contact -->
-<section id="contact" class="section-double">
-    <h2 class="titre-section">Nous Contacter</h2>
-    <div class="double-colonnes">
-        <!-- Bulle gauche -->
-        <div class="colonne">
-            <div class="presentation-container prestation-card">
-                <div class="presentation-texte">
-                    <p><img src="phone.png" class="icon"> <strong>Téléphone :</strong> 06 46 53 86 97</p>
-                    <p><img src="mail.png" class="icon"> <strong>Email :</strong> lhostis984@gmail.com</p>
-                    <p><img src="watch.png" class="icon"> <strong>Disponibilité :</strong> Du Lundi au Dimanche sur Rendez-vous.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Bulle droite -->
-        <div class="colonne">
-            <div class="presentation-container prestation-card">
-                <div class="presentation-texte">
-                    <p><img src="phone.png" class="icon"> <strong>Téléphone :</strong> 07 66 18 70 64</p>
-                    <p><img src="whatapp.png" class="icon"> <strong>WhatsApp :</strong> +33 7 66 18 70 64</p>
-                    <p><img src="mail.png" class="icon"> <strong>Email :</strong> elie.maguer@hotmail.fr</p>
-                    <p><img src="watch.png" class="icon"> <strong>Disponibilité :</strong> Du Lundi au Dimanche sur Rendez-vous.</p>
-                </div>
-            </div>
+<!-- Contact Bruno L’Hostis -->
+<section id="contact">
+    <h2 class="titre-section">Contact</h2>
+    <div class="presentation-container prestation-card">
+        <div class="presentation-texte">
+            <p><img src="phone.webp" class="icon"> <strong>Téléphone :</strong> 06 46 53 86 97</p>
+            <p><img src="mail.webp" class="icon"> <strong>Email :</strong> lhostis984@gmail.com</p>
+            <p><img src="watch.webp" class="icon"> <strong>Disponibilité :</strong> Du Lundi au Dimanche sur Rendez-vous.</p>
         </div>
     </div>
 </section>
 
+<!-- Pied de page -->
 <footer class="footer-credit">
     <p>Ce site a été réalisé par :</p>
     <a href="https://informatique-plouguerneau-antoine-conter.fr/" target="_blank">
-        <img src="logo2.png" alt="Logo Créateur" class="logo-createur">
+        <img src="Antoine-CONTER-informatique-Logo.webp" alt="Logo Créateur" class="logo-createur">
     </a>
 </footer>
+<!-- Formulaire de contact -->
+<!-- Bouton flottant de contact -->
+<div id="contact-bubble" onclick="document.getElementById('contact-form').style.display='block'">
+  📩 Contact
+</div>
 
 
-
+<div id="contact-form" style="display: none;">
+  <button id="close-form" onclick="document.getElementById('contact-form').style.display='none'">×</button>
+  <form action="https://formspree.io/f/xdklavag" method="POST">
+    <input type="email" name="email" placeholder="Votre email" required><br>
+    <textarea name="message" placeholder="Votre message" required></textarea><br>
+    <button type="submit">Envoyer</button>
+  </form>
+</div>
 </body>
 </html>
