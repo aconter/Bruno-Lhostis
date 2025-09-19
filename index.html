@@ -181,10 +181,16 @@
     </a>
 </footer>
 
-<!-- Bouton flottant de contact -->
-<div id="contact-bubble" onclick="document.getElementById('contact-form').style.display='block'">
-  📩 Contact
+<!-- Formulaire de contact -->
+<div id="contact-form" style="display: none;">
+  <button id="close-form" onclick="document.getElementById('contact-form').style.display='none'">×</button>
+  <form action="https://formspree.io/f/xkgvedvr" method="POST">
+    <input type="email" name="email" placeholder="Votre email" required><br>
+    <textarea name="message" placeholder="Votre message" required></textarea><br>
+    <button type="submit">Envoyer</button>
+  </form>
 </div>
+<div id="contact-bubble" onclick="document.getElementById('contact-form').style.display='block'">📩 Contact</div>
 
 </body>
 </html>
