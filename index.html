@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="theme-color" content="#005f99" />
 
-  <!-- SEO de base -->
-  <title>Bruno L’Hostis – Professeur & Formateur (Lannilis, Finistère)</title>
-  <meta name="description" content="Soutien scolaire en maths et physique-chimie (collège, lycée, adultes) avec 50 % de crédit d’impôt. Interventions à Lannilis et nord Finistère, et en visio partout en France.">
-  <meta name="robots" content="index,follow,max-image-preview:large">
+  <!-- SEO local -->
+  <title>Soutien scolaire en maths & physique à Plouguerneau, Lannilis et Landéda – Un accompagnement personnalisé pour particuliers et adapté à chacun de vos besoins.</title>
+  <meta name="description" content="Soutien scolaire en mathématiques et physique-chimie à Plouguerneau, Lannilis et Landéda. Cours individuels ou petits groupes, présentiel ou visio. 50 % de crédit d’impôt. Formations pro sur mesure." />
+  <meta name="keywords" content="soutien scolaire Plouguerneau, soutien scolaire Lannilis, soutien scolaire Landéda, cours de maths Plouguerneau, cours physique chimie Lannilis, professeur particulier Landéda, formation professionnelle Finistère" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
 
-  <!-- Canonical + hreflang en HTTPS -->
-  <link rel="canonical" href="https://bruno-lhostis.fr/">
-  <link rel="alternate" hreflang="fr-FR" href="https://bruno-lhostis.fr/">
-
-  <!-- Favicons (inchangés) -->
-  <link rel="icon" type="image/png" sizes="32x32" href="Bruno-LHOSTIS-logo.webp">
-  <link rel="icon" type="image/png" sizes="192x192" href="Bruno-LHOSTIS-logo.webp">
-  <link rel="apple-touch-icon" href="Bruno-LHOSTIS-logo.webp">
-  <meta name="msapplication-TileImage" content="Bruno-LHOSTIS-logo.webp">
+  <!-- Canonical + hreflang -->
+  <link rel="canonical" href="https://bruno-lhostis.fr/" />
+  <link rel="alternate" hreflang="fr-FR" href="https://bruno-lhostis.fr/" />
 
   <!-- Open Graph / Twitter -->
-  <meta property="og:locale" content="fr_FR">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://bruno-lhostis.fr/">
-  <meta property="og:title" content="Bruno L’Hostis – Professeur & Formateur (Lannilis, Finistère)">
-  <meta property="og:description" content="Cours de maths & physique-chimie – 50 % de crédit d’impôt – Lannilis, nord Finistère et visio France entière.">
-  <meta property="og:image" content="https://bruno-lhostis.fr/Bruno-LHOSTIS-logo.webp">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Bruno L’Hostis – Professeur & Formateur">
-  <meta name="twitter:description" content="Soutien scolaire à Lannilis (29) et en ligne : maths & physique-chimie, 50 % de crédit d’impôt.">
-  <meta name="twitter:image" content="https://bruno-lhostis.fr/Bruno-LHOSTIS-logo.webp">
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bruno-lhostis.fr/" />
+  <meta property="og:title" content="Soutien scolaire en maths & physique à Plouguerneau, Lannilis et Landéda – Un accompagnement personnalisé pour particuliers et adapté à chacun de vos besoins." />
+  <meta property="og:description" content="Cours de maths & physique-chimie. Présentiel à Plouguerneau, Lannilis, Landéda ou visio. 50 % de crédit d’impôt. Formations pro sur mesure." />
+  <meta property="og:image" content="https://bruno-lhostis.fr/Bruno-LHOSTIS-logo.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Soutien scolaire en maths & physique à Plouguerneau, Lannilis et Landéda – Un accompagnement personnalisé pour particuliers et adapté à chacun de vos besoins." />
+  <meta name="twitter:description" content="Maths & physique-chimie, 50 % crédit d’impôt, présentiel/visio." />
+  <meta name="twitter:image" content="https://bruno-lhostis.fr/Bruno-LHOSTIS-logo.webp" />
 
-  <!-- CSS (inchangé) -->
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- Perf -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+  <link rel="preload" as="image" href="fond-Bruno-Lhostis.webp" fetchpriority="high" />
+  <link rel="preload" as="style" href="styles.css" />
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-  <!-- Données structurées : Person -->
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" media="print" onload="this.media='all'">
+
+  <!-- JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -46,11 +50,10 @@
     "image": "https://bruno-lhostis.fr/Bruno-LHOSTIS.webp",
     "telephone": "+33646538697",
     "knowsAbout": ["mathématiques", "physique-chimie", "pédagogie", "formation professionnelle"],
-    "areaServed": ["Lannilis", "Plouguerneau", "Lesneven", "Brest", "Finistère", "France"]
+    "areaServed": ["Plouguerneau", "Lannilis", "Landéda", "Lesneven", "Brest", "Finistère", "France"]
   }
   </script>
 
-  <!-- Données structurées : LocalBusiness -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -66,12 +69,11 @@
       "addressRegion": "Bretagne",
       "addressCountry": "FR"
     },
-    "areaServed": ["Lannilis", "Plouguerneau", "Lesneven", "Brest", "Finistère"],
+    "areaServed": ["Plouguerneau", "Lannilis", "Landéda", "Lesneven", "Brest", "Finistère"],
     "byAppointmentOnly": true
   }
   </script>
 
-  <!-- Données structurées : Offres -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -83,7 +85,7 @@
       {
         "@type":"Offer",
         "name":"Soutien scolaire (maths & physique-chimie)",
-        "description":"Cours individuels ou petits groupes – 50 % de crédit d’impôt – présentiel (Lannilis & nord Finistère) et visio.",
+        "description":"Cours individuels ou petits groupes – 50 % de crédit d’impôt – présentiel (Plouguerneau, Lannilis, Landéda) et visio.",
         "priceCurrency":"EUR",
         "price":"27",
         "priceSpecification":{"@type":"UnitPriceSpecification","priceCurrency":"EUR","price":"27","unitCode":"HUR"}
@@ -102,96 +104,97 @@
 </head>
 <body>
 
-<!-- Header avec logo -->
 <header>
-    <a href="#accueil">
-        <img src="Bruno-LHOSTIS-logo.webp" alt="Logo Bruno L’Hostis" class="logo">
-    </a>
+  <a href="#accueil" class="logo-link" aria-label="Retour à l’accueil">
+    <img src="Bruno-LHOSTIS-logo.webp" alt="Logo Bruno L’Hostis"
+         class="logo" width="180" height="180" loading="eager" decoding="async">
+  </a>
 </header>
 
-<!-- Accueil -->
 <section id="accueil">
-    <div class="slogan animate__animated animate__fadeInDown">
-        <h1>Faciliter l'accès à la connaissance, à la formation</h1>
-        <p>Un accompagnement personnalisé pour particuliers et adapté à chacun de vos besoins.</p>
-    </div>
+  <div class="slogan animate__animated animate__fadeInDown">
+    <h1>Soutien scolaire <br>
+      en maths & physique<br>
+      à Plouguerneau, Lannilis et Landéda</h1>
+    <p>Un accompagnement personnalisé pour particuliers et adapté à chacun de vos besoins.</p>
+  </div>
 </section>
 
-<!-- Carte mentale -->
 <section id="services">
-    <h2 class="titre-section">Aperçu de mes services</h2>
-    <div class="services-banner">
-        <img src="Bruno_Lhostis_map.webp" alt="Carte mentale" />
-    </div>
+  <h2 class="titre-section">Aperçu de mes services</h2>
+  <div class="services-banner">
+    <img src="Bruno_Lhostis_map.webp" alt="Carte mentale"
+         width="842" height="252" loading="lazy" decoding="async">
+  </div>
 </section>
 
-<!-- Présentation Bruno L’Hostis -->
 <section id="presentation" class="section-double">
-    <h2 class="titre-section">Qui suis-je ?</h2>
-    <div class="presentation-container prestation-card">
-        <img src="Bruno-LHOSTIS.webp" alt="Ma photo" class="photo-profil">
-        <div class="presentation-texte">
-            <h3>Bruno L’HOSTIS</h3>
-            <p><strong>Professeur et formateur indépendant</strong></p>
-            <ul>
-                <li>Soutien scolaire en <strong>maths et physique-chimie</strong> pour collégiens, lycéens et adultes (50 % crédit d’impôt).</li>
-                <li>12 ans d’expérience en accompagnement individuel et réussite scolaire.</li>
-            </ul>
-            <p><strong>Formateur</strong></p>
-            <ul>
-                <li>Expérience en formations internes dans le secteur automobile, en France et à l’international (Indonésie, Tchéquie).</li>
-                <li>Conception, animation et gestion de <strong>séquences pédagogiques complètes</strong>, de la préparation à l’évaluation.</li>
-                <li>Formations <strong>culturelles et professionnelles</strong> destinées au grand public, aux associations et aux entreprises.</li>
-            </ul>
-            <p><em>Passionné par la transmission du savoir, j’accompagne aussi bien les particuliers que les organisations dans leurs projets d’apprentissage et de développement de compétences.</em></p>
-        </div>
+  <h2 class="titre-section">Qui suis-je&nbsp;?</h2>
+  <div class="presentation-container prestation-card">
+    <img src="Bruno-LHOSTIS.webp" alt="Bruno L’Hostis"
+         class="photo-profil" width="2252" height="4000" loading="lazy" decoding="async">
+    <div class="presentation-texte">
+      <h3>Bruno L’HOSTIS</h3>
+      <p><strong>Professeur et formateur indépendant</strong></p>
+      <ul>
+        <li>Soutien scolaire en <strong>maths et physique-chimie</strong> pour collégiens, lycéens et adultes (50&nbsp;% crédit d’impôt).</li>
+        <li>12&nbsp;ans d’expérience en accompagnement individuel et réussite scolaire.</li>
+      </ul>
+      <p><strong>Formateur</strong></p>
+      <ul>
+        <li>Expérience en formations internes (secteur automobile) en France et à l’international (Indonésie, Tchéquie).</li>
+        <li>Conception, animation et gestion de <strong>séquences pédagogiques complètes</strong>, de la préparation à l’évaluation.</li>
+        <li>Formations <strong>culturelles et professionnelles</strong> pour grand public, associations et entreprises.</li>
+      </ul>
+      <p><em>Passionné par la transmission, j’accompagne particuliers et organisations dans leurs objectifs d’apprentissage.</em></p>
     </div>
+  </div>
 </section>
 
-<!-- Tarifs Bruno L’Hostis -->
 <section id="tarifs">
-    <h2 class="titre-section">Tarifs</h2>
-    <div class="presentation-container prestation-card bulle-tarif">
-        <div class="presentation-texte">
-            <h3>Tarifs Bruno L’HOSTIS</h3>
-            <ul>
-                <li><strong>Soutien scolaire :</strong> 27 €/h — individuel ou petits groupes (maths & physique-chimie) avec <strong>50 % de crédit d’impôt</strong>.</li>
-                <li><strong>Formateur indépendant :</strong> 30 €/h — tout domaine, pour le grand public, associations et entreprises (conception, animation, gestion et évaluation de séquences pédagogiques).</li>
-            </ul>
-        </div>
+  <h2 class="titre-section">Tarifs</h2>
+  <div class="presentation-container prestation-card bulle-tarif">
+    <div class="presentation-texte">
+      <h3>Tarifs Bruno L’HOSTIS</h3>
+      <ul>
+        <li><strong>Soutien scolaire :</strong> 27&nbsp;€/h — individuel ou petits groupes (maths & physique-chimie) avec <strong>50&nbsp;% de crédit d’impôt</strong>.</li>
+        <li><strong>Formateur indépendant :</strong> 30&nbsp;€/h — tout domaine (conception, animation, évaluation).</li>
+      </ul>
     </div>
+  </div>
 </section>
 
-<!-- Contact Bruno L’Hostis -->
 <section id="contact">
-    <h2 class="titre-section">Contact</h2>
-    <div class="presentation-container prestation-card">
-        <div class="presentation-texte">
-            <p><img src="phone.webp" class="icon"> <strong>Téléphone :</strong> 06 46 53 86 97</p>
-            <p><img src="mail.webp" class="icon"> <strong>Email:</strong> lhostis984@gmail.com</p>
-            <p><img src="watch.webp" class="icon"> <strong>Disponibilité :</strong> Du Lundi au Dimanche sur Rendez-vous.</p>
-        </div>
+  <h2 class="titre-section">Contact</h2>
+  <div class="presentation-container prestation-card">
+    <div class="presentation-texte">
+      <p><img src="phone.webp" class="icon" alt="" width="50" height="50"> <strong>Téléphone :</strong> 06&nbsp;46&nbsp;53&nbsp;86&nbsp;97</p>
+      <p><img src="mail.webp" class="icon" alt="" width="50" height="50"> <strong>Email :</strong> lhostis984@gmail.com</p>
+      <p><img src="watch.webp" class="icon" alt="" width="50" height="50"> <strong>Disponibilité :</strong> Du lundi au dimanche sur rendez-vous.</p>
     </div>
+  </div>
 </section>
 
-<!-- Pied de page -->
 <footer class="footer-credit">
-    <p>Ce site a été réalisé par :</p>
-    <a href="https://informatique-plouguerneau-antoine-conter.fr/" target="_blank">
-        <img src="Antoine-CONTER-informatique-Logo.webp" alt="Logo Créateur" class="logo-createur">
-    </a>
+  <p>Ce site a été réalisé par :</p>
+  <a href="https://informatique-plouguerneau-antoine-conter.fr/" target="_blank" rel="noopener">
+    <img src="Antoine-CONTER-informatique-Logo.webp" alt="Logo Créateur"
+         class="logo-createur" width="180" height="180" loading="lazy" decoding="async">
+  </a>
 </footer>
 
-<!-- Formulaire de contact -->
-<div id="contact-form" style="display: none;">
-  <button id="close-form" onclick="document.getElementById('contact-form').style.display='none'">×</button>
+<!-- Formulaire flottant -->
+<div id="contact-form" hidden>
+  <button id="close-form" aria-label="Fermer le formulaire">×</button>
   <form action="https://formspree.io/f/xkgvedvr" method="POST">
     <input type="email" name="email" placeholder="Votre email" required><br>
     <textarea name="message" placeholder="Votre message" required></textarea><br>
     <button type="submit">Envoyer</button>
   </form>
 </div>
-<div id="contact-bubble" onclick="document.getElementById('contact-form').style.display='block'">📩 Contact</div>
+<button id="contact-bubble" type="button" aria-expanded="false" aria-controls="contact-form">📩 Contact</button>
 
+<!-- JS -->
+<script src="app.js" defer></script>
 </body>
 </html>
