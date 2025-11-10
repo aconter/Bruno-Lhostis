@@ -10,13 +10,18 @@
 /* PAS de scroll-behavior global -> molette fluide */
 html{}
 
-/* Base */
+/* Base : fond sans fixed + image-set pour AVIF/WebP */
 body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size:22px; margin:0; padding:0;
-  /* pas de background-attachment: fixed */
-  background:url('fond-Bruno-Lhostis.webp') no-repeat center center;
-  background-size:cover; color:var(--texte);
+  background:
+    image-set(
+      url('fond-Bruno-Lhostis.avif') type('image/avif'),
+      url('fond-Bruno-Lhostis.webp') type('image/webp')
+    )
+    no-repeat center center;
+  background-size:cover;
+  color:var(--texte);
 }
 
 /* Header */
@@ -34,8 +39,12 @@ section{scroll-margin-top:calc(var(--header-h) + 12px);}
 #accueil{
   margin-top:var(--header-h);
   min-height:calc(100vh - var(--header-h));
-  /* pas de fixed ici non plus */
-  background:url('fond-Bruno-Lhostis.webp') no-repeat center center;
+  background:
+    image-set(
+      url('fond-Bruno-Lhostis.avif') type('image/avif'),
+      url('fond-Bruno-Lhostis.webp') type('image/webp')
+    )
+    no-repeat center center;
   background-size:cover;
   display:flex; justify-content:center; align-items:center; text-align:center; position:relative;
 }
@@ -44,7 +53,7 @@ section{scroll-margin-top:calc(var(--header-h) + 12px);}
 #services::before,#presentation::before,#tarifs::before,#contact::before{
   content:''; position:absolute; inset:0;
   background:rgba(255,255,255,0.94);
-  backdrop-filter: blur(1px);   /* 1px (au lieu de 2) -> plus fluide */
+  backdrop-filter: blur(1px);   /* 1px -> plus fluide */
   z-index:-1;
 }
 
