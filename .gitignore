@@ -1,3 +1,7 @@
 # Documents de travail privés : ne pas publier sur le site
 *.pdf
 *.docx
+
+# Documents de stratégie SEO : internes, ne pas publier
+*.md
+*.csv
