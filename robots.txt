@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /scripts/
 
 Sitemap: https://bruno-lhostis.fr/sitemap.xml

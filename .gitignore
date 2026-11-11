@@ -5,3 +5,4 @@
 # Documents de stratégie SEO : internes, ne pas publier
 *.md
 *.csv
+__pycache__/
